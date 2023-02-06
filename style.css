@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+html {
+  font-size: 62, 5%;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(53, 111, 143);
+}
+
+.wrapper {
+  background-color: rgba(255, 255, 255, 0.745);
+  width: 20rem;
+  height: 25rem;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 1rem;
+}
+
+.display {
+  background-color: rgba(51, 56, 49, 0.277);
+  width: 100%;
+  height: 30%;
+  border-radius: 10px;
+  padding: 1rem;
+  color: black;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: right;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  overflow: hidden;
+}
+
+.display-number {
+  white-space: nowrap;
+}
+
+.buttons {
+  padding: 1rem 0;
+  width: 100%;
+  height: 70%;
+}
+
+.button {
+  background-color: rgba(255, 255, 255, 0.515);
+  padding: 0.5rem;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.button:hover {
+  background-color: white;
+}
